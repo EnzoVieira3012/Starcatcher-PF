@@ -171,7 +171,7 @@ O banco de dados H2 será usado automaticamente para testes. Use o arquivo `src/
 
 **Clone o Repositório:**
 ```bash
-git clone https://github.com/seu-usuario/starcatcher-api.git
+git clone https://github.com/EnzoVieira3012/Starcatcher-PF.git
 cd starcatcher-api
 ```
 
