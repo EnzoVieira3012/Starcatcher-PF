@@ -1,0 +1,122 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Expo
+.expo/
+.expo-shared/
+*.expo/*
+web-build/
+dist/
+
+# React Native
+android/
+ios/
+*.keystore
+*.hmap
+*.xcodeproj/*
+*.xcworkspace/*
+*.xcuserdata/
+build/
+.cxx/
+*.so
+*.apk
+*.aar
+*.lock
+*.plist
+*.jks
+*.jar
+*.gradle
+
+# Metro bundler cache
+*.metro-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Jest
+coverage/
+*.lcov
+
+# Expo Router
+.expo-router/
+expo-env.d.ts
+
+# IDEs e Editores
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+*.stackdump
+
+# Fonts
+*.ttf
+*.otf
+
+# Imagens geradas ou cacheadas
+*.png.cache
+
+# Configurações específicas de ambiente
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Histórico de pacotes
+package-lock.json
+yarn.lock
+
+# Snapshots de Teste
+__snapshots__/
+*.snap
+
+# Arquivos de backup
+*.bak
+*.old
+*.backup
+*.orig
+*.save
+*.tmp
+*.temp
+
+# Arquivos de cache
+.cache/
+.cache-loader/
+*.cache.js
+*.tmp.js
+
+# Arquivos do sistema operacional
+*.swp
+*.swo
+._*
+
+# Expo - Android e iOS builds
+*.apk
+*.ipa
+*.app
+
+# Diretórios que podem ser reconstruídos
+src/**/*.d.ts
+src/**/*.map
+*.map
+
+# Scripts e backups desnecessários
+reset-project.js

@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    container_name: starcatcher-postgres
+    environment:
+      POSTGRES_USER: starcatcher
+      POSTGRES_PASSWORD: starcatcher
+      POSTGRES_DB: starcatcher_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:

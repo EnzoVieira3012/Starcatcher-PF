@@ -1,0 +1,143 @@
+# Maven
+/target/
+/.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+tmp/
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.stackdump
+*.swp
+
+# Java-specific
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.deb
+*.dmg
+*.pkg
+*.iso
+*.swp
+
+# Spring Boot
+*.pid
+*.hprof
+
+# Test output
+/test-output/
+/surefire-reports/
+/failsafe-reports/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Docker
+docker-compose.override.yml
+.env
+.env.*
+
+# Application properties
+/src/main/resources/application.properties
+/src/main/resources/application.yml
+/src/test/resources/application.properties
+/src/test/resources/application.yml
+
+# Lombok
+.lombok/
+
+# Node.js (caso tenha front-end em subdiretório)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Coverage reports
+/coverage/
+*.lcov
+
+# Build cache
+/.gradle/
+/build/
+.gradle/
+
+# Generated files
+*.generated.*
+
+# Backup files
+*.bak
+*.old
+*.backup
+*.orig
+*.save
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Exclude IDE-specific folders for Visual Studio Code
+.vscode/
+
+# Ignore files from macOS Finder
+.DS_Store
+
+# Ignore postgresql volume (Docker)
+postgres_data/
+
+# Ignore database dumps
+*.sql
+*.dump
