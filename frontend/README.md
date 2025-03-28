@@ -99,8 +99,8 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/starcatcher-pf.git
-cd starcatcher-pf/frontend
+git clone [https://github.com/seu-usuario/starcatcher-pf.git](https://github.com/EnzoVieira3012/Starcatcher-PF.git)
+cd frontend
 ```
 
 Instale as dependências:
